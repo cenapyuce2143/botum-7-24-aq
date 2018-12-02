@@ -5,7 +5,7 @@ exports.run = (client, message, args) => {
   .setColor(0xFF0000)
   .setTimestamp()
   .setAuthor(message.author.username, message.author.avatarURL)
-  .addField(':warning: Uyarı :warning:', '`kick` adlı komutu özel mesajlarda kullanamazsın.')
+  .addField(':warning: Uyarı :warning:', '`kick`adlı komutu özel mesajlarda kullanamazsın.')
   return message.author.sendEmbed(ozelmesajuyari); }
   let guild = message.guild
   let reason = args.slice(1).join(' ');

@@ -1,12 +1,16 @@
 const Discord = require('discord.js');
-exports.run = function(client, message, args) {
-  message.reply('Pong! **' + client.ping + '** ms');
-};
+module.exports.run = function(client, message, args) {
+message.reply('Pong! **' + client.ping + '** ms'); 
+}
 
+module.exports.help = {
+    name: 'ping'
+  };
+                       
 exports.conf = {
   enabled: true,
   guildOnly: false,
-  aliases: [],
+  aliases: ['p'], 
   permLevel: 0
 };
 

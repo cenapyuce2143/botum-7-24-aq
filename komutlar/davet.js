@@ -1,4 +1,4 @@
-const Discord = require('discord.js');
+  const Discord = require('discord.js');
 const client = new Discord.Client();
 
 exports.run = (client, message) => {
@@ -13,7 +13,7 @@ exports.run = (client, message) => {
     .setColor(0x00AE86)
     .setTimestamp()
     .setAuthor(message.author.username, message.author.avatarURL)
-    .setDescription('Link: https://discordapp.com/api/oauth2/authorize?client_id=514380886226239515&permissions=8&redirect_uri=https%3A%2F%2Fdiscord.js.org%2F%23%2F&scope=bot')
+      .setDescription('Link: https://discordapp.com/api/oauth2/authorize?client_id=518719631108734997&permissions=8&redirect_uri=https%3A%2F%2Fdiscord.js.org%2F%23%2F&scope=bot')
     .addField('biz self bot değiliz asla asla !davet i kulandınız',"not dur")
     return message.author.sendEmbed(pingozel)
 };
